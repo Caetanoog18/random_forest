@@ -1,4 +1,9 @@
-from pre_processing import *
+from census import CensusDatabase
+from credit import CreditDatabase
 
-test = CreditRisk()
-test.pre_processing()
+credit = CreditDatabase()
+credit.credit_database()
+
+census = CensusDatabase()
+census.census_database()
+
